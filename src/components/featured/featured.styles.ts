@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 
-export const Feature = styled.div`
+export const Banner = styled.div`
     display: flex;
-    align-items: center;
     position: relative;
     padding: 0px 6px;
 
@@ -32,10 +31,14 @@ export const Feature = styled.div`
 
     .right{
         right: 10px;
-    };
+    }
+`;
 
-
-   
+export const Feature = styled.div`
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 6px;
 `;
 
 export const Image = styled.img`
@@ -44,3 +47,14 @@ export const Image = styled.img`
     height: 65%;
     object-fit: contain;
 `;
+
+export const FeatureCard = styled.div`
+    display: flex;
+    width: 96.5%;
+    position: absolute;
+    padding: 0px 20px;
+    gap: 25px;
+    top: 200px;
+    background-color: #e9f7e542;
+`;
+

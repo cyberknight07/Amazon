@@ -6,14 +6,14 @@ interface Category{
     link: string;
 }
 
-interface Sections{
+export interface Sections{
     id: number;
     title: string;
     exploreLink: string;
     categories: Category[];
 }
 
-interface CardData{
+export interface CardData{
     sections: Sections[];
 }
 
